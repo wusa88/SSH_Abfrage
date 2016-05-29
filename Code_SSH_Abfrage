@@ -2,6 +2,6 @@
 
 import subprocess
 
-p = subprocess.Popen(['ssh', 'pi@192.168.7.112', "vcgencmd measure_temp"], stdout = subprocess.PIPE)
+p = subprocess.Popen(['ssh', 'pi@192.168.xxx.xxx', "vcgencmd measure_temp"], stdout = subprocess.PIPE)
 o,e = p.communicate()
 print (o)
